@@ -1,0 +1,49 @@
+{
+  "name": "serika-theme",
+  "displayName": "Serika Theme",
+  "description": "Serika theme by @hugocxl 🚀",
+  "publisher": "hugocxl",
+  "author": "Hugo Corta <corta.hugo@gmail.com>",
+  "license": "MIT",
+  "version": "1.0.0",
+  "categories": [
+    "Themes"
+  ],
+  "maintainers": [
+    "Hugo Corta <corta.hugo@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hugocxl/serika.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hugocxl/serika/issues"
+  },
+  "engines": {
+    "vscode": "^1.13.0"
+  },
+  "keywords": [
+    "serika",
+    "hugocxl",
+    "theme",
+    "color-theme"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#292929",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Serika",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Serika-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  }
+}
